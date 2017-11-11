@@ -15,7 +15,7 @@ Feed aggregator (RSS)
 
 ## Examples
 
-The following will aggregate all court feeds into one:
+The following, when run from the command-line inside the cloned directory, will aggregate all court feeds into one:
 
 ```
 ./feed-aggregator us-courts.json us-courts-feed.db
