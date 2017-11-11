@@ -11,7 +11,8 @@ Feed aggregator (RSS)
 
 ## Dependencies
 
- * NodeJS >9
+ * Sqlite 3 (if you want to export to CSV)
+ * NodeJS 9 or higher
 
 ## Examples
 
