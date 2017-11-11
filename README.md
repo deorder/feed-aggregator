@@ -21,6 +21,8 @@ The following, when run from the command-line inside the cloned directory, will 
 ./feed-aggregator us-courts.json us-courts-feed.db
 ```
 
+The above can be executed multiple times and only new entries will be added.
+
 Export to CSV by running `sqlite3 us-courts-feed.db` and then:
 
 ```
