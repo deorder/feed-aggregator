@@ -1,4 +1,4 @@
-# feed-aggregator
+# Feed Aggregator
 Feed aggregator (RSS)
 
 ## Installation 
