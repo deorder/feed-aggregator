@@ -1,7 +1,19 @@
 # feed-aggregator
 Feed aggregator (RSS)
 
-## Example
+## Installation 
+
+ * Install NodeJS 9 or higher from: https://nodejs.org
+
+ * Clone this project from github to a directory on your computer
+
+ * Execute the following inside the cloned directory using the command-line: `npm install`
+
+## Dependencies
+
+ * NodeJS >9
+
+## Examples
 
 The following will aggregate all court feeds into one:
 
@@ -18,3 +30,4 @@ Export to CSV by running `sqlite3 us-courts-feed.db` and then:
 select * from entry order by iso_date
 .quit
 ```
+
